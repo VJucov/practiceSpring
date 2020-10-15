@@ -11,6 +11,7 @@ public class Mentor implements Employee {
         this.discipline = discipline;
     }
 
+    @Override
     public Discipline getDiscipline() {
         return discipline;
     }

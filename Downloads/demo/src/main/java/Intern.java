@@ -10,7 +10,7 @@ public class Intern extends  Mentor{
     public Intern(Discipline discipline) {
         super(discipline);
     }
-
+    @Override
     public Discipline getDiscipline() {
         return discipline;
     }
